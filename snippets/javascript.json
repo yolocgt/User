@@ -1,0 +1,86 @@
+{
+	/*
+	// Place your snippets for JavaScript here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	"Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	}
+*/
+	// "function": {
+	// 	"prefix": "fu",
+	// 	"body": [
+	// 		"function($1){",
+	// 		"\t$2",
+	// 		"}"
+	// 	],
+	// 	"description": "Anonymous function"
+	// },
+	"al": {
+		"prefix": "al",
+		"body": [
+			"alert('${1:test}')"
+		],
+		"description": "Anonymous function"
+	},
+	"dg": {
+		"prefix": "dg",
+		"body": [
+			"debugger;"
+		],
+		"description": "Anonymous function"
+	},
+	"function2": {
+		"prefix": "fn",
+		"body": [
+			"function($1){",
+			"\t$2",
+			"}"
+		],
+		"description": "Anonymous function"
+	},
+	"require": {
+		"prefix": "re",
+		"body": [
+			"const ${1:module} = require('$2');"
+			// "const ${1:module} = require('$1');"
+		],
+		"description": "node require"
+	},
+	"requi": {
+		"prefix": "rr",
+		"body": [
+			"${1:module} = require('$2');"
+		],
+		"description": "node require"
+	},
+	"re": {
+		"prefix": "require",
+		"body": [
+			"require('$1')"
+		],
+		"description": "node require"
+	},
+	"use": {
+		"prefix": "use",
+		"body": [
+			// "${1:app}.use(${2:module});"
+			"app.use(${1:module});"
+		],
+		"description": "app use"
+	},
+	"<%": {
+		"prefix": "hq",
+		"body": [
+			"<%=$1%>$2"
+		],
+		"description": "<%=%>"
+	}
+}
